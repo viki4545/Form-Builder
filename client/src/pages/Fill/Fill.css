@@ -1,0 +1,22 @@
+.fill-wrap {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill-wrap h2 {
+  margin-bottom: 20px;
+}
+
+.fill-wrap > button {
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  color: var(--accent-three);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--accent-one);
+}

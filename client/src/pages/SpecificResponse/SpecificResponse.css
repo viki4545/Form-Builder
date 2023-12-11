@@ -1,0 +1,20 @@
+h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--accent-four);
+}
+.specific-response-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid var(--accent-two);
+  color: var(--accent-four);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.specific-response-container > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent-four);
+}

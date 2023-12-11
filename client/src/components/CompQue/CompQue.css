@@ -1,0 +1,28 @@
+.comp-questions {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.comp-questions > h4 {
+  color: var(--accent-two);
+  background-color: var(--accent-four);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comp-questions > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent-four);
+}
+
+.mcqs,
+.mcq-questions {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid var(--accent-two);
+  border-radius: 5px;
+}

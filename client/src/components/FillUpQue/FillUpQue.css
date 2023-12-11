@@ -1,0 +1,64 @@
+.fillup-questions {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.fillup-questions > h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent-two);
+  background-color: var(--accent-four);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fillup-questions > p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--accent-four);
+}
+
+.fillup-options {
+  display: flex;
+  gap: 15px;
+  padding: 10px 10px;
+  align-items: center;
+  min-height: 30px;
+  border: 1px solid var(--accent-two);
+  border-radius: 5px;
+}
+
+.fillup-options > div {
+  padding: 5px 10px;
+  gap: 10px;
+  border: 1px solid var(--accent-two);
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.fillup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.blank {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 50px;
+  border-radius: 5px;
+  background: var(--accent-one);
+  min-height: 30px;
+}
+
+.blank > p {
+  padding: 10px 10px;
+  border: 1px solid var(--accent-two);
+  border-radius: 5px;
+  background: var(--primary-bg);
+  cursor: grab;
+}
